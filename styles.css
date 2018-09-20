@@ -1,0 +1,89 @@
+/* font styles */
+
+h1 {
+    font-family: 'Courier New';
+    font-size: 60px;
+    letter-spacing: 3px
+}
+
+p {
+    font-family: 'Verdana';
+    font-size: 15px;
+    letter-spacing: 1px
+}
+
+.small {
+    font-style: italic;
+    font-size: 13px
+}
+
+.one {
+    font-size: 70px
+}
+
+span {
+    font-variant: small-caps;
+}
+
+.bold {
+    font-weight: bold
+}
+
+
+
+p, h1 {
+    text-align: center
+}
+/* page styles */
+
+html {
+    background: url(images/blueprint.jpg) no-repeat center fixed;
+    background-size: cover
+}
+
+div {
+    width: 850px;
+    height: 700px;
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 30px
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+hr {
+    display: block;
+    width: 760px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: red;
+    border-color: red
+}
+
+a {
+    color: red;
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
+}
+.orange {
+    color:  rgb(255, 170, 11)
+}
+.green {
+    color: green
+}
